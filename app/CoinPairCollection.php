@@ -11,7 +11,7 @@ class CoinPairCollection
         $this->coins = $coins;
     }
 
-    private function get(string $symbol): ?CoinPair
+    public function get(string $symbol): ?CoinPair
     {
         return ($this->coins[$symbol]) ?? null;
     }
