@@ -1,0 +1,20 @@
+{
+  "name": "mikusr/crypto-pair-info",
+  "description": "Homework Crypto currency pair info",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MikusR",
+      "email": "mikus.rakis@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.5",
+    "ext-json": "*",
+    "ext-readline": "*"
+  }
+}
